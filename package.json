@@ -1,0 +1,45 @@
+{
+    "name": "node-api",
+    "version": "0.1.0",
+    "license": "(MIT OR Apache-2.0)",
+    "private": true,
+    "author": "Top Coder <topcoder@codewired.me>",
+    "homepage": "https://demo-projects.codewired.me",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/codewiredlabs/typescript/demo-projects.git"
+    },
+    "scripts": {
+      "run-demo": "ts-node",
+      "test": "jest",
+      "typecheck": "tsc --noEmit --strict -p",
+      "lint": "eslint",
+      "check": "node check.js"
+    },
+    "devDependencies": {
+      "@tsconfig/strictest": "^2.0.5",
+      "@types/core-js": "^2.5.5",
+      "@types/jest": "^29.5.1",
+      "@types/node": "^22.5.1",
+      "@typescript-eslint/eslint-plugin": "^8.3.0",
+      "@typescript-eslint/parser": "^8.3.0",
+      "autoprefixer": "^10.4.14",
+      "eslint": "^9.22.0",
+      "eslint-config-prettier": "^9.1.0",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-n": "^17.10.2",
+      "eslint-plugin-promise": "^7.1.0",
+      "jest": "^29.5.0",
+      "ts-jest": "^29.1.0",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.5.4",
+      "vite": "^5.4.2",
+      "vite-plugin-checker": "^0.7.2",
+      "vite-plugin-eslint": "^1.8.1"
+    },
+    "engines": {
+      "node": ">=20.15.0"
+    },
+    "dependencies": {}
+  }
+  

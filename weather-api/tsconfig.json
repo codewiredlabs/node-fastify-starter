@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.json",
+  "ts-node": {
+    "files": true
+  },
+  "exclude": [
+    "coverage",
+    "build-frontend.js",
+    "jest.config.js",
+    "tailwind.config.js"
+  ],
+  "compilerOptions": {
+    "types": [
+      "@types/jest"
+    ],
+    "module": "commonjs",
+  }
+}
